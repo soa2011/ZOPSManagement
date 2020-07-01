@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:Button xmlns:sch="http://Baf.com/schemas" name="EditIntAgreement">
+    <sch:seqIndex>16</sch:seqIndex>
+    <sch:name>EditIntAgreement</sch:name>
+    <sch:label>EditIntAgreement</sch:label>
+    <sch:behavior>ExecuteJavaScript</sch:behavior>
+    <sch:bmfTransactionName></sch:bmfTransactionName>
+    <sch:content>editIntAgreement()</sch:content>
+    <sch:appliesTo></sch:appliesTo>
+    <sch:securityToken></sch:securityToken>
+    <sch:description></sch:description>
+</sch:Button>

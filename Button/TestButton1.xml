@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:Button xmlns:sch="http://Baf.com/schemas" name="TestButton1">
+    <sch:seqIndex>9</sch:seqIndex>
+    <sch:name>TestButton1</sch:name>
+    <sch:label>TestButton1</sch:label>
+    <sch:behavior>ExecuteMethod</sch:behavior>
+    <sch:bmfTransactionName>Save Quote</sch:bmfTransactionName>
+    <sch:content>alert('Hi button1')</sch:content>
+    <sch:appliesTo></sch:appliesTo>
+    <sch:securityToken></sch:securityToken>
+    <sch:description></sch:description>
+</sch:Button>

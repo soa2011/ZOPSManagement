@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:Transaction xmlns:sch="http://Baf.com/schemas" name="CompareTo">
+    <sch:seqIndex>0</sch:seqIndex>
+    <sch:name>CompareTo</sch:name>
+    <sch:businessName></sch:businessName>
+    <sch:label>CompareTo</sch:label>
+    <sch:logicType>Groovy</sch:logicType>
+    <sch:methodBody>zopsManager.compareTo(request,context)</sch:methodBody>
+    <sch:processDefinition></sch:processDefinition>
+    <sch:newStatus></sch:newStatus>
+    <sch:versionMode>New Version</sch:versionMode>
+    <sch:executionMode>With Transaction</sch:executionMode>
+    <sch:pageDefinition>ProcessTrans Detail</sch:pageDefinition>
+    <sch:securityToken></sch:securityToken>
+    <sch:transType></sch:transType>
+    <sch:description></sch:description>
+    <sch:bmfPage isRef="true">ProcessTrans Detail</sch:bmfPage>
+</sch:Transaction>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:ConfigParam xmlns:sch="http://Baf.com/schemas" name="ManagerBean">
+    <sch:seqIndex>1</sch:seqIndex>
+    <sch:name>ManagerBean</sch:name>
+    <sch:paramValue>zopsAggrManager</sch:paramValue>
+    <sch:category>System</sch:category>
+    <sch:subCategory></sch:subCategory>
+    <sch:dataType>String</sch:dataType>
+    <sch:length>0</sch:length>
+    <sch:scale>0</sch:scale>
+    <sch:defaultValue></sch:defaultValue>
+    <sch:description></sch:description>
+</sch:ConfigParam>

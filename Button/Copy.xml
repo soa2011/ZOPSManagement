@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:Button xmlns:sch="http://Baf.com/schemas" name="Copy">
+    <sch:seqIndex>4</sch:seqIndex>
+    <sch:name>Copy</sch:name>
+    <sch:label>Copy</sch:label>
+    <sch:behavior>ExecuteJavaScript</sch:behavior>
+    <sch:bmfTransactionName></sch:bmfTransactionName>
+    <sch:content>BmfAggrEditor.copyItem(summaryTable)</sch:content>
+    <sch:appliesTo></sch:appliesTo>
+    <sch:securityToken></sch:securityToken>
+    <sch:description></sch:description>
+</sch:Button>

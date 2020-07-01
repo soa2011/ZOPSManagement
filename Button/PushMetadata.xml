@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:Button xmlns:sch="http://Baf.com/schemas" name="PushMetadata">
+    <sch:seqIndex>11</sch:seqIndex>
+    <sch:name>PushMetadata</sch:name>
+    <sch:label>PushMetadata</sch:label>
+    <sch:behavior>ExecuteMethod</sch:behavior>
+    <sch:bmfTransactionName>PushMetadata</sch:bmfTransactionName>
+    <sch:content></sch:content>
+    <sch:appliesTo></sch:appliesTo>
+    <sch:securityToken></sch:securityToken>
+    <sch:description></sch:description>
+    <sch:bmfTransaction isRef="true">PushMetadata</sch:bmfTransaction>
+</sch:Button>
