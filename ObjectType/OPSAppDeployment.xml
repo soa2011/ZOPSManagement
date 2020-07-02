@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="OPSAppEnvironment">
-    <sch:name>OPSAppEnvironment</sch:name>
+<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="OPSAppDeployment">
+    <sch:name>OPSAppDeployment</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archetype>NORMAL</sch:archetype>
     <sch:parentTypeName></sch:parentTypeName>

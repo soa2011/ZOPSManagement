@@ -22,10 +22,10 @@
         </sch:BmfObjectRelationship>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_MANY</sch:type>
-            <sch:name>OPSAppEnvironment</sch:name>
+            <sch:name>OPSAppDeployment</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>OPSAppEnvironment</sch:relatedObjectType>
+            <sch:relatedObjectType>OPSAppDeployment</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>-1</sch:upperBound>

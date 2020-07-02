@@ -5,7 +5,7 @@
     <sch:businessName></sch:businessName>
     <sch:label>Deploy</sch:label>
     <sch:logicType>Groovy</sch:logicType>
-    <sch:methodBody>zopsManager.deployApp(request,context)</sch:methodBody>
+    <sch:methodBody>dtmMonitor.Deploy(request,context)</sch:methodBody>
     <sch:processDefinition></sch:processDefinition>
     <sch:newStatus></sch:newStatus>
     <sch:versionMode>New Version</sch:versionMode>
