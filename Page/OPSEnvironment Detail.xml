@@ -233,7 +233,7 @@
             <sch:name></sch:name>
             <sch:seqNumber>800</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
-            <sch:tabPage>ExtInfo</sch:tabPage>
+            <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Section Header Begin</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
@@ -243,7 +243,7 @@
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
             <sch:dependency></sch:dependency>
-            <sch:defaultValue>Collapsed</sch:defaultValue>
+            <sch:defaultValue></sch:defaultValue>
             <sch:mask></sch:mask>
             <sch:relatedFields></sch:relatedFields>
             <sch:relatedRules></sch:relatedRules>
