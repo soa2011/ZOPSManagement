@@ -6,6 +6,7 @@
     <sch:parentTypeName></sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
     <sch:accessMode>TableDirect</sch:accessMode>
+    <sch:primaryField></sch:primaryField>
     <sch:primaryKey></sch:primaryKey>
     <sch:description></sch:description>
     <sch:bmfRelationships/>
@@ -27,7 +28,7 @@
         <sch:BmfObjectField>
             <sch:name>ErrorType</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName>ErrorType</sch:enumName>
+            <sch:enumName></sch:enumName>
             <sch:length>64</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>

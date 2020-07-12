@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <sch:Button xmlns:sch="http://Baf.com/schemas" name="Deploy">
-    <sch:seqIndex>10</sch:seqIndex>
+    <sch:seqIndex>13</sch:seqIndex>
     <sch:name>Deploy</sch:name>
     <sch:label>Deploy</sch:label>
     <sch:behavior>ExecuteMethod</sch:behavior>
