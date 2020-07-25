@@ -11,6 +11,8 @@
     <sch:versionMode>New Version</sch:versionMode>
     <sch:executionMode>With Transaction</sch:executionMode>
     <sch:pageDefinition>AdminMethod1 Detail</sch:pageDefinition>
+    <sch:targetObjectType></sch:targetObjectType>
+    <sch:refreshMode></sch:refreshMode>
     <sch:securityToken></sch:securityToken>
     <sch:transType></sch:transType>
     <sch:description></sch:description>

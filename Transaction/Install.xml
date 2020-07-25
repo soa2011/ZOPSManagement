@@ -11,6 +11,8 @@
     <sch:versionMode>New Version</sch:versionMode>
     <sch:executionMode>With Transaction</sch:executionMode>
     <sch:pageDefinition>ProcessTrans Detail</sch:pageDefinition>
+    <sch:targetObjectType>OPSApp</sch:targetObjectType>
+    <sch:refreshMode>Refresh</sch:refreshMode>
     <sch:securityToken></sch:securityToken>
     <sch:transType></sch:transType>
     <sch:description></sch:description>
