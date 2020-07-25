@@ -2,7 +2,7 @@
 <sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="ZOPSManagement">
     <sch:name>ZOPSManagement</sch:name>
     <sch:tableType>System</sch:tableType>
-    <sch:archetype>NORMAL</sch:archetype>
+    <sch:archeType>NORMAL</sch:archeType>
     <sch:parentTypeName></sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
     <sch:accessMode></sch:accessMode>
@@ -23,10 +23,10 @@
         </sch:BmfObjectRelationship>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_MANY</sch:type>
-            <sch:name>OPSAppDeployment</sch:name>
+            <sch:name>OPSAppInstallment</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>OPSAppDeployment</sch:relatedObjectType>
+            <sch:relatedObjectType>OPSAppInstallment</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>-1</sch:upperBound>
@@ -89,10 +89,10 @@
         </sch:BmfObjectRelationship>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_MANY</sch:type>
-            <sch:name>OPSDeployment</sch:name>
+            <sch:name>OPSInstallment</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>OPSDeployment</sch:relatedObjectType>
+            <sch:relatedObjectType>OPSInstallment</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>-1</sch:upperBound>

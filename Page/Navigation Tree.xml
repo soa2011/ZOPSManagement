@@ -62,10 +62,10 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>OPSAppDeployment</sch:tableName>
+            <sch:tableName>OPSAppInstallment</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>5000</sch:seqIndex>
-            <sch:format>OPSAppDeployment(%s)</sch:format>
+            <sch:format>OPSAppInstallment(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
@@ -73,7 +73,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>OPSAppDeployment</sch:tableName>
+            <sch:tableName>OPSAppInstallment</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>5010</sch:seqIndex>
             <sch:format>%s %s</sch:format>

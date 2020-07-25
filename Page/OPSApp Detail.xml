@@ -228,7 +228,7 @@
             <sch:eventHandler></sch:eventHandler>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>LatestTag</sch:name>
+            <sch:name>LatestVersion</sch:name>
             <sch:seqNumber>70</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
@@ -236,7 +236,7 @@
             <sch:fieldType>Edit</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>LatestTag</sch:label>
+            <sch:label>LatestVersion</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
@@ -278,7 +278,7 @@
             <sch:eventHandler></sch:eventHandler>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>IPAddr</sch:name>
+            <sch:name>LocalVersion</sch:name>
             <sch:seqNumber>150</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
@@ -286,7 +286,7 @@
             <sch:fieldType>Edit</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>IPAddr</sch:label>
+            <sch:label>LocalVersion</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
@@ -593,13 +593,13 @@
         </sch:BmfPageButton>
         <sch:BmfPageButton>
             <sch:seqNo>2500</sch:seqNo>
-            <sch:buttonName>Deploy</sch:buttonName>
+            <sch:buttonName>Install</sch:buttonName>
             <sch:displayCondition></sch:displayCondition>
             <sch:displayResource></sch:displayResource>
             <sch:description></sch:description>
             <sch:showButton>true</sch:showButton>
             <sch:eventHandler></sch:eventHandler>
-            <sch:bmfButton isRef="true">Deploy</sch:bmfButton>
+            <sch:bmfButton isRef="true">Install</sch:bmfButton>
         </sch:BmfPageButton>
     </sch:buttons>
 </sch:PageDefinition>
