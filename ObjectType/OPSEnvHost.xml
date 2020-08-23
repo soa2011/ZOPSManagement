@@ -3,7 +3,7 @@
     <sch:name>OPSEnvHost</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
-    <sch:parentTypeName></sch:parentTypeName>
+    <sch:parentTypeName>OPSEnvironment</sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
     <sch:accessMode>TableDirect</sch:accessMode>
     <sch:primaryField></sch:primaryField>
@@ -122,4 +122,5 @@
             <sch:description></sch:description>
         </sch:BmfObjectField>
     </sch:bmfFields>
+    <sch:bmfRules/>
 </sch:ObjectType>
