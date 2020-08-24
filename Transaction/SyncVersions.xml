@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:Transaction xmlns:sch="http://Baf.com/schemas" name="SyncVersions">
+    <sch:seqIndex>0</sch:seqIndex>
+    <sch:name>SyncVersions</sch:name>
+    <sch:businessName></sch:businessName>
+    <sch:label>SyncVersions</sch:label>
+    <sch:logicType>Groovy</sch:logicType>
+    <sch:methodBody>mdsGitRepoManager.syncVersions(request,context)</sch:methodBody>
+    <sch:processDefinition></sch:processDefinition>
+    <sch:newStatus></sch:newStatus>
+    <sch:versionMode>New Version</sch:versionMode>
+    <sch:executionMode>With Transaction</sch:executionMode>
+    <sch:pageDefinition>ProcessTrans Detail</sch:pageDefinition>
+    <sch:targetObjectType>OPSApp</sch:targetObjectType>
+    <sch:refreshMode>Refresh</sch:refreshMode>
+    <sch:securityToken></sch:securityToken>
+    <sch:transType></sch:transType>
+    <sch:description></sch:description>
+    <sch:bmfPage isRef="true">ProcessTrans Detail</sch:bmfPage>
+</sch:Transaction>

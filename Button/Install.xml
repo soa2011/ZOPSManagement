@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <sch:Button xmlns:sch="http://Baf.com/schemas" name="Install">
-    <sch:seqIndex>13</sch:seqIndex>
+    <sch:seqIndex>14</sch:seqIndex>
     <sch:name>Install</sch:name>
-    <sch:label>Install</sch:label>
+    <sch:label>SyncVersions</sch:label>
     <sch:behavior>ExecuteMethod</sch:behavior>
-    <sch:bmfTransactionName>Install</sch:bmfTransactionName>
+    <sch:bmfTransactionName>SyncVersions</sch:bmfTransactionName>
     <sch:content></sch:content>
     <sch:appliesTo></sch:appliesTo>
     <sch:securityToken></sch:securityToken>
     <sch:description></sch:description>
-    <sch:bmfTransaction isRef="true">Install</sch:bmfTransaction>
+    <sch:bmfTransaction isRef="true">SyncVersions</sch:bmfTransaction>
 </sch:Button>

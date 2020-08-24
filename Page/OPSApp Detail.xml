@@ -601,5 +601,14 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:bmfButton isRef="true">Install</sch:bmfButton>
         </sch:BmfPageButton>
+        <sch:BmfPageButton>
+            <sch:seqNo>2600</sch:seqNo>
+            <sch:buttonName>SyncVersions</sch:buttonName>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:description></sch:description>
+            <sch:showButton>true</sch:showButton>
+            <sch:eventHandler></sch:eventHandler>
+        </sch:BmfPageButton>
     </sch:buttons>
 </sch:PageDefinition>
