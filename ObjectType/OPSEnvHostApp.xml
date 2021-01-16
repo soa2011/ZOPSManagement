@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="OPSPipelineStepInst">
-    <sch:name>OPSPipelineStepInst</sch:name>
+<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="OPSEnvHostApp">
+    <sch:name>OPSEnvHostApp</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
-    <sch:parentTypeName>OPSPipelineInst</sch:parentTypeName>
+    <sch:parentTypeName>OPSEnvHost</sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
     <sch:accessMode>TableDirect</sch:accessMode>
     <sch:primaryField></sch:primaryField>
@@ -18,7 +18,7 @@
     <sch:bmfRelationships/>
     <sch:bmfFields>
         <sch:BmfObjectField>
-            <sch:name>MessageId</sch:name>
+            <sch:name>Name</sch:name>
             <sch:dataType>Char</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>128</sch:length>
@@ -34,154 +34,42 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>Status</sch:name>
+            <sch:name>ReleaseTag</sch:name>
+            <sch:dataType>Char</sch:dataType>
+            <sch:enumName></sch:enumName>
+            <sch:length>128</sch:length>
+            <sch:scale></sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+        </sch:BmfObjectField>
+        <sch:BmfObjectField>
+            <sch:name>AppMeta</sch:name>
+            <sch:dataType>Char</sch:dataType>
+            <sch:enumName></sch:enumName>
+            <sch:length>8000</sch:length>
+            <sch:scale></sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+        </sch:BmfObjectField>
+        <sch:BmfObjectField>
+            <sch:name>Description</sch:name>
             <sch:dataType>Char</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>256</sch:length>
-            <sch:scale></sch:scale>
-            <sch:autoIncrement>false</sch:autoIncrement>
-            <sch:calculated>false</sch:calculated>
-            <sch:encrypted>false</sch:encrypted>
-            <sch:seqStart>0</sch:seqStart>
-            <sch:seqPattern></sch:seqPattern>
-            <sch:calcExpr></sch:calcExpr>
-            <sch:description></sch:description>
-            <sch:changeType></sch:changeType>
-            <sch:changeFields></sch:changeFields>
-        </sch:BmfObjectField>
-        <sch:BmfObjectField>
-            <sch:name>StatusDate</sch:name>
-            <sch:dataType>DateTime</sch:dataType>
-            <sch:enumName></sch:enumName>
-            <sch:length></sch:length>
-            <sch:scale></sch:scale>
-            <sch:autoIncrement>false</sch:autoIncrement>
-            <sch:calculated>false</sch:calculated>
-            <sch:encrypted>false</sch:encrypted>
-            <sch:seqStart>0</sch:seqStart>
-            <sch:seqPattern></sch:seqPattern>
-            <sch:calcExpr></sch:calcExpr>
-            <sch:description></sch:description>
-            <sch:changeType></sch:changeType>
-            <sch:changeFields></sch:changeFields>
-        </sch:BmfObjectField>
-        <sch:BmfObjectField>
-            <sch:name>Name</sch:name>
-            <sch:dataType>Char</sch:dataType>
-            <sch:enumName></sch:enumName>
-            <sch:length>256</sch:length>
-            <sch:scale></sch:scale>
-            <sch:autoIncrement>false</sch:autoIncrement>
-            <sch:calculated>false</sch:calculated>
-            <sch:encrypted>false</sch:encrypted>
-            <sch:seqStart>0</sch:seqStart>
-            <sch:seqPattern></sch:seqPattern>
-            <sch:calcExpr></sch:calcExpr>
-            <sch:description></sch:description>
-            <sch:changeType></sch:changeType>
-            <sch:changeFields></sch:changeFields>
-        </sch:BmfObjectField>
-        <sch:BmfObjectField>
-            <sch:name>RoutingKey</sch:name>
-            <sch:dataType>Char</sch:dataType>
-            <sch:enumName></sch:enumName>
-            <sch:length>256</sch:length>
-            <sch:scale></sch:scale>
-            <sch:autoIncrement>false</sch:autoIncrement>
-            <sch:calculated>false</sch:calculated>
-            <sch:encrypted>false</sch:encrypted>
-            <sch:seqStart>0</sch:seqStart>
-            <sch:seqPattern></sch:seqPattern>
-            <sch:calcExpr></sch:calcExpr>
-            <sch:description></sch:description>
-            <sch:changeType></sch:changeType>
-            <sch:changeFields></sch:changeFields>
-        </sch:BmfObjectField>
-        <sch:BmfObjectField>
-            <sch:name>EventTime</sch:name>
-            <sch:dataType>DateTime</sch:dataType>
-            <sch:enumName></sch:enumName>
-            <sch:length></sch:length>
-            <sch:scale></sch:scale>
-            <sch:autoIncrement>false</sch:autoIncrement>
-            <sch:calculated>false</sch:calculated>
-            <sch:encrypted>false</sch:encrypted>
-            <sch:seqStart>0</sch:seqStart>
-            <sch:seqPattern></sch:seqPattern>
-            <sch:calcExpr></sch:calcExpr>
-            <sch:description></sch:description>
-            <sch:changeType></sch:changeType>
-            <sch:changeFields></sch:changeFields>
-        </sch:BmfObjectField>
-        <sch:BmfObjectField>
-            <sch:name>EventType</sch:name>
-            <sch:dataType>Char</sch:dataType>
-            <sch:enumName></sch:enumName>
-            <sch:length>64</sch:length>
-            <sch:scale></sch:scale>
-            <sch:autoIncrement>false</sch:autoIncrement>
-            <sch:calculated>false</sch:calculated>
-            <sch:encrypted>false</sch:encrypted>
-            <sch:seqStart>0</sch:seqStart>
-            <sch:seqPattern></sch:seqPattern>
-            <sch:calcExpr></sch:calcExpr>
-            <sch:description></sch:description>
-            <sch:changeType></sch:changeType>
-            <sch:changeFields></sch:changeFields>
-        </sch:BmfObjectField>
-        <sch:BmfObjectField>
-            <sch:name>EventBody</sch:name>
-            <sch:dataType>Char</sch:dataType>
-            <sch:enumName></sch:enumName>
-            <sch:length>4000</sch:length>
-            <sch:scale></sch:scale>
-            <sch:autoIncrement>false</sch:autoIncrement>
-            <sch:calculated>false</sch:calculated>
-            <sch:encrypted>false</sch:encrypted>
-            <sch:seqStart>0</sch:seqStart>
-            <sch:seqPattern></sch:seqPattern>
-            <sch:calcExpr></sch:calcExpr>
-            <sch:description></sch:description>
-            <sch:changeType></sch:changeType>
-            <sch:changeFields></sch:changeFields>
-        </sch:BmfObjectField>
-        <sch:BmfObjectField>
-            <sch:name>ErrorMessage</sch:name>
-            <sch:dataType>Char</sch:dataType>
-            <sch:enumName></sch:enumName>
-            <sch:length>4000</sch:length>
-            <sch:scale></sch:scale>
-            <sch:autoIncrement>false</sch:autoIncrement>
-            <sch:calculated>false</sch:calculated>
-            <sch:encrypted>false</sch:encrypted>
-            <sch:seqStart>0</sch:seqStart>
-            <sch:seqPattern></sch:seqPattern>
-            <sch:calcExpr></sch:calcExpr>
-            <sch:description></sch:description>
-            <sch:changeType></sch:changeType>
-            <sch:changeFields></sch:changeFields>
-        </sch:BmfObjectField>
-        <sch:BmfObjectField>
-            <sch:name>Duration</sch:name>
-            <sch:dataType>Integer</sch:dataType>
-            <sch:enumName></sch:enumName>
-            <sch:length></sch:length>
-            <sch:scale></sch:scale>
-            <sch:autoIncrement>false</sch:autoIncrement>
-            <sch:calculated>false</sch:calculated>
-            <sch:encrypted>false</sch:encrypted>
-            <sch:seqStart>0</sch:seqStart>
-            <sch:seqPattern></sch:seqPattern>
-            <sch:calcExpr></sch:calcExpr>
-            <sch:description></sch:description>
-            <sch:changeType></sch:changeType>
-            <sch:changeFields></sch:changeFields>
-        </sch:BmfObjectField>
-        <sch:BmfObjectField>
-            <sch:name>IPAddr</sch:name>
-            <sch:dataType>Char</sch:dataType>
-            <sch:enumName></sch:enumName>
-            <sch:length>64</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>

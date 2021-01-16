@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <sch:Button xmlns:sch="http://Baf.com/schemas" name="Delete">
-    <sch:seqIndex>3</sch:seqIndex>
     <sch:name>Delete</sch:name>
     <sch:label>Delete</sch:label>
     <sch:behavior>ExecuteJavaScript</sch:behavior>
